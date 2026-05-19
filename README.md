@@ -1,78 +1,82 @@
-# Alexandria Library Management System
+# Library-Management-System
 
-A comprehensive web-based library management system built with Flask and SQLAlchemy, designed to provide easy book cataloging, member management, loan tracking, and administrative functions.
+![Python 3.x](https://img.shields.io/badge/Python_3_x-333333?style=flat&logo=github) ![Tkinter](https://img.shields.io/badge/Tkinter-333333?style=flat&logo=github) ![SQLite3](https://img.shields.io/badge/SQLite3-333333?style=flat&logo=github)
 
-![Alexandria Library System]
+## Overview
 
-## Features
+Library-Management-System is a robust Python desktop client for cataloging library assets, managing member transactions, and logging book rentals.
 
-- **Book Management**: Catalog, search, and manage books by title, author, category, and availability
-- **Member Management**: Track member information, membership status, and loan history
-- **Loan System**: Process loans and returns with automated fine calculation
-- **Role-Based Access Control**: Different levels of access for admins, staff, members, and guests
-- **User Dashboard**: Customized dashboards based on user roles
-- **Responsive Design**: Works on desktop and mobile devices
+---
+
+## Key Features
+
+- **Unified catalog searching by author, title, or ISBN**
+- **Member profile database tracking borrowed items and dues**
+- **Dynamic dashboard statistics reporting library status**
+- **Bespoke transaction receipts logger**
+
+---
 
 ## Technology Stack
 
-- **Backend**: Python, Flask
-- **Database**: SQL Server (with fallback to SQLite)
-- **ORM**: SQLAlchemy
-- **Frontend**: Bootstrap 4, jQuery, Font Awesome
-- **Authentication**: Custom session-based auth with password hashing
+- **Python 3.x**
+- **Tkinter**
+- **SQLite3**
 
-## Installation
+---
+
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.6 or higher
-- SQL Server or SQLite
-- pip (Python package installer)
+Ensure you have the required runtimes installed:
+- Git
+- Appropriate package manager (npm/yarn or pip depending on stack)
 
-### Setup
+### Setup Instructions
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/richieroi/LIBRARY.git
-   cd library-management-system
-   ```
-
-2. Create and activate a virtual environment:
-   ```
-   python -m venv venv
-   # On Windows:
-   venv\Scripts\activate
-   # On macOS/Linux:
-   source venv/bin/activate
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/iamroidev/Library-Management-System.git
+   cd Library-Management-System
    ```
 
-3. Install dependencies:
+2. **Install Dependencies**
+   *For Node/Next.js/React Native projects:*
+   ```bash
+   npm install
    ```
+   *For Python projects:*
+   ```bash
    pip install -r requirements.txt
    ```
 
-4. Configure the database in `config.py`:
-   ```python
-   # Use SQL Server
-   SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://username:password@server/database?driver=ODBC+Driver+17+for+SQL+Server'
-   
-   # Or use SQLite (uncomment to use)
-   # SQLALCHEMY_DATABASE_URI = 'sqlite:///library.db'
+3. **Configure Environment**
+   Duplicate the env file (if present) and populate variables:
+   ```bash
+   cp .env.example .env
    ```
 
-5. Initialize the database:
+4. **Launch Application**
+   *For React/Next.js:*
+   ```bash
+   npm run dev
    ```
-   flask db init
-   flask db migrate
-   flask db upgrade
+   *For Expo/React Native:*
+   ```bash
+   npx expo start
    ```
-
-6. Run the application:
-   ```
+   *For Python/Flask:*
+   ```bash
    python app.py
    ```
 
-7. Access the application at `http://localhost:5000`
+---
 
-## Directory Structure
+## Contributing
 
+Contributions are welcome! Please open an issue or submit a pull request with any improvements.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
