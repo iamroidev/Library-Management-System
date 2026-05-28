@@ -1,82 +1,55 @@
-# Library-Management-System
+# Library-Management-System 🚀
 
-![Python 3.x](https://img.shields.io/badge/Python_3_x-333333?style=flat&logo=github) ![Tkinter](https://img.shields.io/badge/Tkinter-333333?style=flat&logo=github) ![SQLite3](https://img.shields.io/badge/SQLite3-333333?style=flat&logo=github)
+[![Python 3.x](https://img.shields.io/badge/Python-v3-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-v3-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+
 
 ## Overview
 
-Library-Management-System is a robust Python desktop client for cataloging library assets, managing member transactions, and logging book rentals.
+Database management system for cataloging library books, users, and borrowing transactions.
 
 ---
 
-## Key Features
+## 🛠️ Technology Stack & Details
 
-- **Unified catalog searching by author, title, or ISBN**
-- **Member profile database tracking borrowed items and dues**
-- **Dynamic dashboard statistics reporting library status**
-- **Bespoke transaction receipts logger**
-
----
-
-## Technology Stack
-
-- **Python 3.x**
-- **Tkinter**
-- **SQLite3**
+*   **Framework**: Flask (Python Micro Web Framework).
+*   **Database**: Local database connection.
+*   **Architecture**: REST API endpoints or server-rendered HTML templates.
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
 Ensure you have the required runtimes installed:
-- Git
-- Appropriate package manager (npm/yarn or pip depending on stack)
+*   [Python](https://www.python.org/) (v3.8.0 or higher)
+*   [Git](https://git-scm.com/)
 
 ### Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/iamroidev/Library-Management-System.git
-   cd Library-Management-System
-   ```
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/iamroidev/Library-Management-System.git
+    cd Library-Management-System
+    ```
 
-2. **Install Dependencies**
-   *For Node/Next.js/React Native projects:*
-   ```bash
-   npm install
-   ```
-   *For Python projects:*
-   ```bash
-   pip install -r requirements.txt
-   ```
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-3. **Configure Environment**
-   Duplicate the env file (if present) and populate variables:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. **Launch Application**
-   *For React/Next.js:*
-   ```bash
-   npm run dev
-   ```
-   *For Expo/React Native:*
-   ```bash
-   npx expo start
-   ```
-   *For Python/Flask:*
-   ```bash
-   python app.py
-   ```
+3.  **Launch Application**
+    ```bash
+    python app.py
+    ```
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request with any improvements.
+Contributions, bug reports, and feature requests are welcome! Feel free to open issues or submit pull requests.
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
